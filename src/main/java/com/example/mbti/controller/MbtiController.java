@@ -35,4 +35,8 @@ public class MbtiController {
         return mbtiService.result(resultDto);
     }
 
+    @GetMapping("/ping")
+    public String ping() {
+        return "pong";
+    }
 }
