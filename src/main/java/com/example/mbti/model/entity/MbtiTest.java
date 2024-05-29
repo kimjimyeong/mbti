@@ -14,17 +14,12 @@ public class MbtiTest {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
-    private String MBTI;
 
     @Column(nullable = false)
-    private String question;
+    private String question1;
 
     @Column(nullable = false)
-    private String answer1;
-
-    @Column(nullable = false)
-    private String answer2;
+    private String question2;
 
 
 }

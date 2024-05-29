@@ -1,14 +1,12 @@
 package com.example.mbti.controller;
 
 import com.example.mbti.model.dto.ResultDto;
+import com.example.mbti.model.dto.ResultResponseDto;
 import com.example.mbti.model.entity.MbtiTest;
-import com.example.mbti.model.entity.MbtiType;
 import com.example.mbti.repository.MbtiTestRepository;
 import com.example.mbti.service.MbtiService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -26,17 +24,21 @@ public class MbtiController {
 
 
     @GetMapping("/start")
-    public List<MbtiTest> testList() {
-        return mbtiTestRepository.findAll();
+    public ResponseEntity<List<MbtiTest>> getAllMbtiTests() {
+        List<MbtiTest> mbtiTests = mbtiService.getAllMbtiTests();
+        return ResponseEntity.ok(mbtiTests);
+    }
+
+    @PostMapping("/submit")
+    public ResponseEntity<Void> submitAnswers(@RequestBody ResultDto resultDto){
+        mbtiService.processAnswers(resultDto);
+        return ResponseEntity.ok().build();
     }
 
     @GetMapping("/result")
-    public MbtiType result(@RequestBody ResultDto resultDto){
-        return mbtiService.result(resultDto);
+    public ResponseEntity<ResultResponseDto> getResult(){
+        ResultResponseDto result = mbtiService.calculateResult();
+        return ResponseEntity.ok(result);
     }
 
-    @GetMapping("/ping")
-    public String ping() {
-        return "pong";
-    }
 }
