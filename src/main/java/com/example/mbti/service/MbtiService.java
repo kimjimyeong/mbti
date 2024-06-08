@@ -56,80 +56,213 @@ public class MbtiService {
         switch (questionId.intValue()) {
             case 1:
                 if (answer == 1) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 4);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 2);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 2);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 4);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 2);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 2);
                 } else if (answer == 2) {
-                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 6);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 2);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
                 }
                 break;
             case 2:
                 if (answer == 1) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
-                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
-                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 6);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 2);
                     scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
+                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 2);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 2);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 4);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
                 }
                 break;
             case 3:
                 if (answer == 1) {
-                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
-                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 2);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 2);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 4);
                 } else if (answer == 2) {
-                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 2);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 4);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 }
                 break;
             case 4:
                 if (answer == 1) {
-                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 2);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 4);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 4);
                 } else if (answer == 2) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 }
                 break;
             case 5:
                 if (answer == 1) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
-                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
-                } else if (answer == 2) {
-                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
                     scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 6);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
+                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 6);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 4);
                 }
                 break;
             case 6:
                 if (answer == 1) {
                     scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 2);
-                } else if (answer == 2) {
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 2);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 6);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
                     scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
+                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 6);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 }
                 break;
             case 7:
                 if (answer == 1) {
-                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
-                } else if (answer == 2) {
                     scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
-                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 2);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 6);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
+                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 6);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
                 }
                 break;
             case 8:
                 if (answer == 1) {
-                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 4);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 4);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 } else if (answer == 2) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 2);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 3);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 6);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 }
                 break;
             case 9:
                 if (answer == 1) {
-                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 6);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 4);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 } else if (answer == 2) {
-                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 2);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 3);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 6);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
                 }
                 break;
             case 10:
                 if (answer == 1) {
-                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 3);
-                } else if (answer == 2) {
                     scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 3);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 4);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 6);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 4);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 3);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 2);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 3);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 6);
+                } else if (answer == 2) {
+                    scores.put("프론트엔드 개발자", scores.get("프론트엔드 개발자") + 6);
+                    scores.put("백엔드 개발자", scores.get("백엔드 개발자") + 2);
+                    scores.put("게임 개발자", scores.get("게임 개발자") + 2);
+                    scores.put("모바일(안드로이드, ios) 앱 개발자", scores.get("모바일(안드로이드, ios) 앱 개발자") + 3);
+                    scores.put("인프라(플랫폼) 엔지니어", scores.get("인프라(플랫폼) 엔지니어") + 6);
+                    scores.put("데브옵스 개발자", scores.get("데브옵스 개발자") + 6);
+                    scores.put("정보보안 전문가", scores.get("정보보안 전문가") + 6);
+                    scores.put("머신러닝/인공지능(AI) 개발자", scores.get("머신러닝/인공지능(AI) 개발자") + 3);
                 }
-                break;
-            default:
                 break;
         }
     }
